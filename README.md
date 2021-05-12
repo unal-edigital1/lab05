@@ -1,6 +1,3 @@
-# lab05
-
-
 # Descripción general del sistema: (tomado del documento de clase)
 
 El algoritmo de multiplicación que se implementa se basa en productos parciales (PP). Se realiza la multiplicación iniciando con el bit menos significativo del multiplicador, el resultado de la multiplicación se suma al primer producto parcial y se obtiene  el segundo producto parcial; si el bit del multiplicador es 0 no se afecta el contenido de PP, por lo que no se realiza la suma. 
@@ -38,6 +35,13 @@ La asignación (puede variar a criterio del diseñador) dada a estas señales; e
 primer operando se encuentra asignado a la dirección BASE + 00, donde BASE es  la dirección de memoria asignada al periférico.
 
 ![](https://github.com/Fabeltranm/FPGA-Game-D1/blob/master/HW/RTL/00EJEMPLOS/00MULTIPLICADOR%20(ejemplo)/Version_01/03%20document/img/imagen5.png)
+
+## Diagrama de bloques del periférico:
+
+Una vez definida la dirección de memoria para la información de entrada y salida del periférico
+se debe adaptar el diseño para que permita el intercambio de información con la CPU. 
+
+![](https://github.com/Fabeltranm/FPGA-Game-D1/blob/master/HW/RTL/00EJEMPLOS/00MULTIPLICADOR%20(ejemplo)/Version_01/03%20document/img/imagen6.png)
 
 
 ## referencias:
